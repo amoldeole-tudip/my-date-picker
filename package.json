@@ -1,0 +1,138 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "mydatepicker@0.0.30",
+        "scope": null,
+        "escapedName": "mydatepicker",
+        "name": "mydatepicker",
+        "rawSpec": "0.0.30",
+        "spec": "0.0.30",
+        "type": "version"
+      },
+      "/home/lt-27/Documents/web"
+    ]
+  ],
+  "_from": "mydatepicker@0.0.30",
+  "_id": "mydatepicker@0.0.30",
+  "_inCache": true,
+  "_location": "/mydatepicker",
+  "_nodeVersion": "6.3.1",
+  "_npmOperationalInternal": {
+    "host": "packages-16-east.internal.npmjs.com",
+    "tmp": "tmp/mydatepicker-0.0.30.tgz_1474521102371_0.8151702431496233"
+  },
+  "_npmUser": {
+    "name": "kekeh",
+    "email": "kea@live.fi"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "mydatepicker@0.0.30",
+    "scope": null,
+    "escapedName": "mydatepicker",
+    "name": "mydatepicker",
+    "rawSpec": "0.0.30",
+    "spec": "0.0.30",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mydatepicker/-/mydatepicker-0.0.30.tgz",
+  "_shasum": "57c65259d4ebae60598323ffb48715c54a2e3c50",
+  "_shrinkwrap": null,
+  "_spec": "mydatepicker@0.0.30",
+  "_where": "/home/lt-27/Documents/web",
+  "author": {
+    "name": "kekeh"
+  },
+  "bugs": {
+    "url": "https://github.com/kekeh/mydatepicker/issues"
+  },
+  "dependencies": {
+    "@angular/common": "2.0.0",
+    "@angular/compiler": "2.0.0",
+    "@angular/core": "2.0.0",
+    "@angular/platform-browser": "2.0.0",
+    "@angular/platform-browser-dynamic": "2.0.0",
+    "es6-shim": "~0.35.1",
+    "reflect-metadata": "0.1.3",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.23"
+  },
+  "description": "Angular2 date picker",
+  "devDependencies": {
+    "@types/node": "^6.0.39",
+    "core-js": "^2.4.1",
+    "css-loader": "^0.23.1",
+    "es6-promise": "3.0.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.15.0",
+    "null-loader": "^0.1.1",
+    "postcss-loader": "~0.9.1",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.5.2",
+    "source-map-loader": "^0.1.5",
+    "style-loader": "^0.13.1",
+    "to-string-loader": "^1.1.4",
+    "ts-loader": "^0.8.1",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.16.0",
+    "webpack-livereload-plugin": "~0.8.1",
+    "webpack-merge": "^0.14.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "57c65259d4ebae60598323ffb48715c54a2e3c50",
+    "tarball": "https://registry.npmjs.org/mydatepicker/-/mydatepicker-0.0.30.tgz"
+  },
+  "engines": {
+    "node": ">=5.4"
+  },
+  "files": [
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "tsconfig.json",
+    "src/my-date-picker"
+  ],
+  "gitHead": "20ee446c20fa062b02ddc4bcb42a7f2c00a9f475",
+  "homepage": "https://github.com/kekeh/mydatepicker#readme",
+  "keywords": [
+    "Angular2",
+    "date picker"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "kekeh",
+      "email": "kea@live.fi"
+    }
+  ],
+  "name": "mydatepicker",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kekeh/mydatepicker.git"
+  },
+  "scripts": {
+    "build": "rimraf dist && webpack --config config/webpack.build.js --progress --profile --bail",
+    "start": "webpack-dev-server --config config/webpack.dev.js --progress"
+  },
+  "version": "0.0.30",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=5.4"
+      },
+      "pkgid": "mydatepicker@0.0.30"
+    }
+  ]
+}
